@@ -77,9 +77,9 @@ services:
             - "1102:1102"
             - "1111:1111"
         volumes:
-            - "/Users/aleal/Documents/Git/docker-cloud-peripherals/JMS:/usr/share/java/kafka/JMS-Stuff"
-            - "/Users/aleal/Documents/Git/docker-cloud-peripherals/CAstuff:/tmp/stores"
-            - "/Users/aleal/Documents/Git/docker-cloud-peripherals/monitoring-stack/settings:/etc/prometheus/"
+            - "./JMS:/usr/share/java/kafka/JMS-Stuff"
+            - ".:/tmp/stores"
+            - "./monitoring-stack/settings:/etc/prometheus/"
         environment:
             KAFKA_OPTS: "-Djava.rmi.server.hostname=localhost -Dcom.sun.management.jmxremote.port=1102 -Dcom.sun.management.jmxremote.rmi.port=1102 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -javaagent:/etc/prometheus/jmx_prometheus_javaagent-0.13.0.jar=1111:/etc/prometheus/connect-exporter-config.yml"
             CONNECT_LOG4J_ROOT_LOGLEVEL: INFO
@@ -135,7 +135,7 @@ services:
     prometheus:
         image: prom/prometheus:latest
         volumes:
-        - "/Users/aleal/Documents/Git/docker-cloud-peripherals/monitoring-stack/settings:/etc/prometheus/"
+        - "./monitoring-stack/settings:/etc/prometheus/"
         command:
         - '--config.file=/etc/prometheus/prometheus.yml'
         ports:
@@ -148,8 +148,8 @@ services:
         ports:
         - 3000:3000
         volumes:
-        - "/Users/aleal/Documents/Git/docker-cloud-peripherals/monitoring-stack/settings:/etc/grafana/provisioning/datasources/"
-        - "/Users/aleal/Documents/Git/docker-cloud-peripherals/monitoring-stack/settings/dashboards:/etc/grafana/provisioning/dashboards/"
+        - "./monitoring-stack/settings:/etc/grafana/provisioning/datasources/"
+        - "./monitoring-stack/settings/dashboards:/etc/grafana/provisioning/dashboards/"
         
 
     
