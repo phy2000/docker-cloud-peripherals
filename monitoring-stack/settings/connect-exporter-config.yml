@@ -10,27 +10,33 @@ rules:
       type: COUNTER
     - pattern : 'kafka.connect<type=connector-metrics, connector=(.+)><>(.+): (.+)'
       value: 1
-      name: kafka_connect_connector_info
+      name: kafka_connector_info
       labels:
         connector: $1
         $2: $3
       type: COUNTER
     - pattern : 'kafka.connect<type=connector-task-metrics, connector=(.+), task=(\d+)><>status: (.+)'
       value: 1
-      name: kafka_connect_connector_task_status
+      name: kafka_connector_task_status
       labels:
         connector: $1
         task: "$2"
         status: $3
       type: COUNTER
     - pattern : 'kafka.connect<type=connect-worker-metrics><>([^:]+)'
-      name: kafka_connect_connect_worker_metrics_$1
-    - pattern : 'kafka.connect<type=source-task-metrics, connector=(.+), task=(\d+)>'
-      name: kafka_connect_source_task_metrics_$1
-    - pattern : 'kafka.connect<type=sink-task-metrics, connector=(.+), task=(\d+)>'
-      name: kafka_connect_sink_task_metrics_$1
+      name: kafka_connect_worker_metrics_$1
+    - pattern : 'kafka.connect<type=source-task-metrics, connector=(.+), task=(\d+)><>(.+): (.+)'
+      name: kafka_connect_source_task_metrics_$3
+      labels:
+        connector: $1
+        task: $2
+    - pattern : 'kafka.connect<type=sink-task-metrics, connector=(.+), task=(\d+)><>(.+): (.+)'
+      name: kafka_connect_sink_task_metrics_$3
+      labels:
+        connector: $1
+        task: $2
     - pattern : 'kafka.connect<type=connect-worker-rebalance-metrics><>([^:]+)'
-      name: kafka_connect_connect_worker_rebalance_metrics_$1
+      name: kafka_connect_worker_rebalance_metrics_$1
     - pattern : 'kafka.connect<type=(.+), client-id=([^:]+)><>([^:]+)'
       name: kafka_connect_$1_$3
       labels:

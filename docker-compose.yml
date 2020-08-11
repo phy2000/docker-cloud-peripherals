@@ -148,6 +148,8 @@ services:
         ports:
         - 3000:3000
         volumes:
-        - "/Users/aleal/Documents/Git/docker-cloud-peripherals/monitoring-stack/settings:/etc/grafana/provisioning/"
+        - "/Users/aleal/Documents/Git/docker-cloud-peripherals/monitoring-stack/settings:/etc/grafana/provisioning/datasources/"
+        - "/Users/aleal/Documents/Git/docker-cloud-peripherals/monitoring-stack/settings/dashboards:/etc/grafana/provisioning/dashboards/"
+        
 
     
