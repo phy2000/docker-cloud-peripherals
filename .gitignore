@@ -1,0 +1,7 @@
+.env
+.DS_Store
+command.properties
+configurationMongoDBSink.json
+jsonPayload.json
+CAstuff/
+
