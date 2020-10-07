@@ -128,11 +128,6 @@
                           }
                         },
                         "disablePinning": true
-                      },
-                      "grouping": {
-                        "dimension": "Topic",
-                        "sort": 2,
-                        "top": 10
                       }
                     }
                   }
@@ -242,11 +237,6 @@
                           }
                         },
                         "disablePinning": true
-                      },
-                      "grouping": {
-                        "dimension": "Topic",
-                        "sort": 2,
-                        "top": 10
                       }
                     }
                   }
@@ -356,11 +346,6 @@
                           }
                         },
                         "disablePinning": true
-                      },
-                      "grouping": {
-                        "dimension": "Topic",
-                        "sort": 2,
-                        "top": 10
                       }
                     }
                   }
@@ -470,11 +455,6 @@
                           }
                         },
                         "disablePinning": true
-                      },
-                      "grouping": {
-                        "dimension": "Topic",
-                        "sort": 2,
-                        "top": 10
                       }
                     }
                   }
@@ -584,11 +564,6 @@
                           }
                         },
                         "disablePinning": true
-                      },
-                      "grouping": {
-                        "dimension": "Topic",
-                        "sort": 2,
-                        "top": 10
                       }
                     }
                   }
@@ -800,11 +775,11 @@
                           "resourceMetadata": {
                             "id": "/subscriptions/<SUBSCRIPTION_ID>/resourceGroups/<RESOURCE_GROUP>/providers/microsoft.insights/components/<APP_INSIGHTS_NAME>"
                           },
-                          "name": "ksqldb_default_metrics_RUNNING-queries",
+                          "name": "ksqldb_default_metrics__confluent-ksql-default_ksql-engine-query-stats-RUNNING-queries",
                           "aggregationType": 4,
                           "namespace": "azure.applicationinsights",
                           "metricVisualization": {
-                            "displayName": "ksqldb_default_metrics_RUNNING-queries",
+                            "displayName": "ksqldb_default_metrics__confluent-ksql-default_ksql-engine-query-stats-RUNNING-queries",
                             "resourceDisplayName": "<APP_INSIGHTS_NAME>"
                           }
                         },
@@ -812,11 +787,11 @@
                           "resourceMetadata": {
                             "id": "/subscriptions/<SUBSCRIPTION_ID>/resourceGroups/<RESOURCE_GROUP>/providers/microsoft.insights/components/<APP_INSIGHTS_NAME>"
                           },
-                          "name": "ksqldb_default_metrics_CREATED-queries",
+                          "name": "ksqldb_default_metrics__confluent-ksql-default_ksql-engine-query-stats-CREATED-queries",
                           "aggregationType": 4,
                           "namespace": "azure.applicationinsights",
                           "metricVisualization": {
-                            "displayName": "ksqldb_default_metrics_CREATED-queries",
+                            "displayName": "ksqldb_default_metrics__confluent-ksql-default_ksql-engine-query-stats-CREATED-queries",
                             "resourceDisplayName": "<APP_INSIGHTS_NAME>"
                           }
                         },
@@ -824,11 +799,11 @@
                           "resourceMetadata": {
                             "id": "/subscriptions/<SUBSCRIPTION_ID>/resourceGroups/<RESOURCE_GROUP>/providers/microsoft.insights/components/<APP_INSIGHTS_NAME>"
                           },
-                          "name": "ksqldb_default_metrics_ERROR-queries",
+                          "name": "ksqldb_default_metrics__confluent-ksql-default_ksql-engine-query-stats-ERROR-queries",
                           "aggregationType": 4,
                           "namespace": "azure.applicationinsights",
                           "metricVisualization": {
-                            "displayName": "ksqldb_default_metrics_ERROR-queries",
+                            "displayName": "ksqldb_default_metrics__confluent-ksql-default_ksql-engine-query-stats-ERROR-queries",
                             "resourceDisplayName": "<APP_INSIGHTS_NAME>"
                           }
                         },
@@ -836,11 +811,11 @@
                           "resourceMetadata": {
                             "id": "/subscriptions/<SUBSCRIPTION_ID>/resourceGroups/<RESOURCE_GROUP>/providers/microsoft.insights/components/<APP_INSIGHTS_NAME>"
                           },
-                          "name": "ksqldb_default_metrics_REBALANCING-queries",
+                          "name": "ksqldb_default_metrics__confluent-ksql-default_ksql-engine-query-stats-REBALANCING-queries",
                           "aggregationType": 4,
                           "namespace": "azure.applicationinsights",
                           "metricVisualization": {
-                            "displayName": "ksqldb_default_metrics_REBALANCING-queries",
+                            "displayName": "ksqldb_default_metrics__confluent-ksql-default_ksql-engine-query-stats-REBALANCING-queries",
                             "resourceDisplayName": "<APP_INSIGHTS_NAME>"
                           }
                         },
@@ -848,11 +823,11 @@
                           "resourceMetadata": {
                             "id": "/subscriptions/<SUBSCRIPTION_ID>/resourceGroups/<RESOURCE_GROUP>/providers/microsoft.insights/components/<APP_INSIGHTS_NAME>"
                           },
-                          "name": "ksqldb_default_metrics_PENDING_SHUTDOWN-queries",
+                          "name": "ksqldb_default_metrics__confluent-ksql-default_ksql-engine-query-stats-PENDING_SHUTDOWN-queries",
                           "aggregationType": 4,
                           "namespace": "azure.applicationinsights",
                           "metricVisualization": {
-                            "displayName": "ksqldb_default_metrics_PENDING_SHUTDOWN-queries",
+                            "displayName": "ksqldb_default_metrics__confluent-ksql-default_ksql-engine-query-stats-PENDING_SHUTDOWN-queries",
                             "resourceDisplayName": "<APP_INSIGHTS_NAME>"
                           }
                         },
@@ -860,11 +835,11 @@
                           "resourceMetadata": {
                             "id": "/subscriptions/<SUBSCRIPTION_ID>/resourceGroups/<RESOURCE_GROUP>/providers/microsoft.insights/components/<APP_INSIGHTS_NAME>"
                           },
-                          "name": "ksqldb_default_metrics_NOT_RUNNING-queries",
+                          "name": "ksqldb_default_metrics__confluent-ksql-default_ksql-engine-query-stats-NOT_RUNNING-queries",
                           "aggregationType": 4,
                           "namespace": "azure.applicationinsights",
                           "metricVisualization": {
-                            "displayName": "ksqldb_default_metrics_NOT_RUNNING-queries",
+                            "displayName": "ksqldb_default_metrics__confluent-ksql-default_ksql-engine-query-stats-NOT_RUNNING-queries",
                             "resourceDisplayName": "<APP_INSIGHTS_NAME>"
                           }
                         }
@@ -996,11 +971,6 @@
                           }
                         },
                         "disablePinning": true
-                      },
-                      "grouping": {
-                        "dimension": "jolokia_agent_url",
-                        "sort": 2,
-                        "top": 10
                       }
                     }
                   }
@@ -1091,22 +1061,22 @@
                           "resourceMetadata": {
                             "id": "/subscriptions/<SUBSCRIPTION_ID>/resourceGroups/<RESOURCE_GROUP>/providers/microsoft.insights/components/<APP_INSIGHTS_NAME>"
                           },
-                          "name": "ksqldb_default_metrics_messages-consumed-per-sec",
+                          "name": "ksqldb_default_metrics__confluent-ksql-default_messages-consumed-per-sec",
                           "aggregationType": 4,
                           "namespace": "azure.applicationinsights",
                           "metricVisualization": {
-                            "displayName": "ksqldb_default_metrics_messages-consumed-per-sec"
+                            "displayName": "ksqldb_default_metrics__confluent-ksql-default_messages-consumed-per-sec"
                           }
                         },
                         {
                           "resourceMetadata": {
                             "id": "/subscriptions/<SUBSCRIPTION_ID>/resourceGroups/<RESOURCE_GROUP>/providers/microsoft.insights/components/<APP_INSIGHTS_NAME>"
                           },
-                          "name": "ksqldb_default_metrics_messages-produced-per-sec",
+                          "name": "ksqldb_default_metrics__confluent-ksql-default_messages-produced-per-sec",
                           "aggregationType": 4,
                           "namespace": "azure.applicationinsights",
                           "metricVisualization": {
-                            "displayName": "ksqldb_default_metrics_messages-produced-per-sec"
+                            "displayName": "ksqldb_default_metrics__confluent-ksql-default_messages-produced-per-sec"
                           }
                         }
                       ],
@@ -1210,11 +1180,11 @@
                           "resourceMetadata": {
                             "id": "/subscriptions/<SUBSCRIPTION_ID>/resourceGroups/<RESOURCE_GROUP>/providers/microsoft.insights/components/<APP_INSIGHTS_NAME>"
                           },
-                          "name": "ksqldb_default_metrics_bytes-consumed-total",
+                          "name": "ksqldb_default_metrics__confluent-ksql-default_bytes-consumed-total",
                           "aggregationType": 4,
                           "namespace": "azure.applicationinsights",
                           "metricVisualization": {
-                            "displayName": "ksqldb_default_metrics_bytes-consumed-total",
+                            "displayName": "ksqldb_default_metrics__confluent-ksql-default_bytes-consumed-total",
                             "resourceDisplayName": "<APP_INSIGHTS_NAME>"
                           }
                         }
@@ -1318,16 +1288,16 @@
                           "resourceMetadata": {
                             "id": "/subscriptions/<SUBSCRIPTION_ID>/resourceGroups/<RESOURCE_GROUP>/providers/microsoft.insights/components/<APP_INSIGHTS_NAME>"
                           },
-                          "name": "ksqldb_default_metrics_messages-consumed-per-sec",
+                          "name": "ksqldb_default_metrics__confluent-ksql-default_messages-consumed-total",
                           "aggregationType": 4,
                           "namespace": "azure.applicationinsights",
                           "metricVisualization": {
-                            "displayName": "ksqldb_default_metrics_messages-consumed-per-sec",
+                            "displayName": "ksqldb_default_metrics__confluent-ksql-default_messages-consumed-total",
                             "resourceDisplayName": "<APP_INSIGHTS_NAME>"
                           }
                         }
                       ],
-                      "title": "ksqlDB Messages Consumed per second ",
+                      "title": "ksqlDB Messages Consumed Total",
                       "titleKind": 2,
                       "visualization": {
                         "chartType": 2,
@@ -1426,11 +1396,11 @@
                           "resourceMetadata": {
                             "id": "/subscriptions/<SUBSCRIPTION_ID>/resourceGroups/<RESOURCE_GROUP>/providers/microsoft.insights/components/<APP_INSIGHTS_NAME>"
                           },
-                          "name": "ksqldb_default_metrics_error-rate",
+                          "name": "ksqldb_default_metrics__confluent-ksql-default_error-rate",
                           "aggregationType": 4,
                           "namespace": "azure.applicationinsights",
                           "metricVisualization": {
-                            "displayName": "ksqldb_default_metrics_error-rate"
+                            "displayName": "ksqldb_default_metrics__confluent-ksql-default_error-rate"
                           }
                         }
                       ],
@@ -1544,22 +1514,22 @@
                           "resourceMetadata": {
                             "id": "/subscriptions/<SUBSCRIPTION_ID>/resourceGroups/<RESOURCE_GROUP>/providers/microsoft.insights/components/<APP_INSIGHTS_NAME>"
                           },
-                          "name": "ksqldb_default_metrics_num-idle-queries",
+                          "name": "ksqldb_default_metrics__confluent-ksql-default_num-idle-queries",
                           "aggregationType": 4,
                           "namespace": "azure.applicationinsights",
                           "metricVisualization": {
-                            "displayName": "ksqldb_default_metrics_num-idle-queries"
+                            "displayName": "ksqldb_default_metrics__confluent-ksql-default_num-idle-queries"
                           }
                         },
                         {
                           "resourceMetadata": {
                             "id": "/subscriptions/<SUBSCRIPTION_ID>/resourceGroups/<RESOURCE_GROUP>/providers/microsoft.insights/components/<APP_INSIGHTS_NAME>"
                           },
-                          "name": "ksqldb_default_metrics_num-active-queries",
+                          "name": "ksqldb_default_metrics__confluent-ksql-default_num-active-queries",
                           "aggregationType": 4,
                           "namespace": "azure.applicationinsights",
                           "metricVisualization": {
-                            "displayName": "ksqldb_default_metrics_num-active-queries"
+                            "displayName": "ksqldb_default_metrics__confluent-ksql-default_num-active-queries"
                           }
                         }
                       ],
@@ -1692,11 +1662,6 @@
                           }
                         },
                         "disablePinning": true
-                      },
-                      "grouping": {
-                        "dimension": "thread-id",
-                        "sort": 2,
-                        "top": 10
                       }
                     }
                   }
@@ -1806,11 +1771,6 @@
                           }
                         },
                         "disablePinning": true
-                      },
-                      "grouping": {
-                        "dimension": "thread-id",
-                        "sort": 2,
-                        "top": 10
                       }
                     }
                   }
@@ -1920,11 +1880,6 @@
                           }
                         },
                         "disablePinning": true
-                      },
-                      "grouping": {
-                        "dimension": "thread-id",
-                        "sort": 2,
-                        "top": 10
                       }
                     }
                   }
@@ -2249,11 +2204,6 @@
                           }
                         },
                         "disablePinning": true
-                      },
-                      "grouping": {
-                        "dimension": "jolokia_agent_url",
-                        "sort": 2,
-                        "top": 10
                       }
                     }
                   }
@@ -2470,11 +2420,6 @@
                           }
                         },
                         "disablePinning": true
-                      },
-                      "grouping": {
-                        "dimension": "jolokia_agent_url",
-                        "sort": 2,
-                        "top": 10
                       }
                     }
                   }
@@ -2584,11 +2529,6 @@
                           }
                         },
                         "disablePinning": true
-                      },
-                      "grouping": {
-                        "dimension": "connector",
-                        "sort": 2,
-                        "top": 10
                       }
                     }
                   }
@@ -2698,11 +2638,6 @@
                           }
                         },
                         "disablePinning": true
-                      },
-                      "grouping": {
-                        "dimension": "connector",
-                        "sort": 2,
-                        "top": 10
                       }
                     }
                   }
@@ -2812,11 +2747,6 @@
                           }
                         },
                         "disablePinning": true
-                      },
-                      "grouping": {
-                        "dimension": "connector",
-                        "sort": 2,
-                        "top": 10
                       }
                     }
                   }
@@ -2926,11 +2856,6 @@
                           }
                         },
                         "disablePinning": true
-                      },
-                      "grouping": {
-                        "dimension": "connector",
-                        "sort": 2,
-                        "top": 10
                       }
                     }
                   }
@@ -3040,11 +2965,6 @@
                           }
                         },
                         "disablePinning": true
-                      },
-                      "grouping": {
-                        "dimension": "connector",
-                        "sort": 2,
-                        "top": 10
                       }
                     }
                   }
@@ -3144,7 +3064,7 @@
                       "metrics": [
                         {
                           "resourceMetadata": {
-                            "id": "/subscriptions/<SUBSCRIPTU>/resourceGroups/<RESOURCE_GROUP>/providers/microsoft.insights/components/<APP_INSIGHTS_NAME>"
+                            "id": "/subscriptions/<SUBSCRIPTION_ID>/resourceGroups/<RESOURCE_GROUP>/providers/microsoft.insights/components/<APP_INSIGHTS_NAME>"
                           },
                           "name": "kafka_connect_source_task_metrics_poll-batch-avg-time-ms",
                           "aggregationType": 4,
@@ -3174,11 +3094,6 @@
                           }
                         },
                         "disablePinning": true
-                      },
-                      "grouping": {
-                        "dimension": "connector",
-                        "sort": 2,
-                        "top": 10
                       }
                     }
                   }
@@ -3286,11 +3201,6 @@
                           }
                         },
                         "disablePinning": true
-                      },
-                      "grouping": {
-                        "dimension": "client-id",
-                        "sort": 2,
-                        "top": 10
                       }
                     }
                   }
@@ -3398,11 +3308,6 @@
                           }
                         },
                         "disablePinning": true
-                      },
-                      "grouping": {
-                        "dimension": "connector",
-                        "sort": 2,
-                        "top": 10
                       }
                     }
                   }
@@ -3510,11 +3415,6 @@
                           }
                         },
                         "disablePinning": true
-                      },
-                      "grouping": {
-                        "dimension": "connector",
-                        "sort": 2,
-                        "top": 10
                       }
                     }
                   }
@@ -3644,11 +3544,6 @@
                           }
                         },
                         "disablePinning": true
-                      },
-                      "grouping": {
-                        "dimension": "client-id",
-                        "sort": 2,
-                        "top": 10
                       }
                     }
                   }
@@ -3756,11 +3651,6 @@
                           }
                         },
                         "disablePinning": true
-                      },
-                      "grouping": {
-                        "dimension": "connector",
-                        "sort": 2,
-                        "top": 10
                       }
                     }
                   }
@@ -3868,11 +3758,6 @@
                           }
                         },
                         "disablePinning": true
-                      },
-                      "grouping": {
-                        "dimension": "connector",
-                        "sort": 2,
-                        "top": 10
                       }
                     }
                   }
@@ -3980,11 +3865,6 @@
                           }
                         },
                         "disablePinning": true
-                      },
-                      "grouping": {
-                        "dimension": "connector",
-                        "sort": 2,
-                        "top": 10
                       }
                     }
                   }
